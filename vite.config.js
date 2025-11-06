@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/entrecenas-landing/', // altere para o nome do seu repositório no GitHub
+  base: '/', 
   build: {
-    outDir: 'dist'
-  }
+    outDir: 'dist',
+  },
 });

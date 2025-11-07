@@ -19,7 +19,7 @@ export default function EntreCenasLanding() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          href="https://gamma.app/docs/Copy-of-EntreCenas-nvd3cbgc3qjb1i4"
+          href="https://youtu.be/lcEkS9tcIjg?list=RDlcEkS9tcIjg"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 rounded-lg bg-cyan-400 text-black font-medium hover:bg-cyan-300 transition-colors"
@@ -42,7 +42,7 @@ export default function EntreCenasLanding() {
           Um guia completo sobre bastidores, técnicas e estratégias de produção audiovisual — direto, prático e feito para quem quer aprender de verdade.
         </p>
         <a
-          href="https://gamma.app/docs/Copy-of-EntreCenas-nvd3cbgc3qjb1i4"
+          href="https://youtu.be/Za7j-pDnh2I?list=RDlcEkS9tcIjg"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition-colors"
@@ -102,7 +102,7 @@ export default function EntreCenasLanding() {
         <p>
           © 2025 EntreCenas — Criado com propósito e simplicidade.{" "}
           <a
-            href="https://gamma.app/docs/Copy-of-EntreCenas-nvd3cbgc3qjb1i4"
+            href="https://youtu.be/0LwcvjNJTuM?list=RDlcEkS9tcIjg&t=289"
             target="_blank"
             rel="noopener noreferrer"
             className="text-cyan-400 hover:text-cyan-300"

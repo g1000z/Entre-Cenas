@@ -1,20 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import logo from './assets/entreCenas-logo.png'; // 🖼️ adicione sua logo aqui (ex: src/assets/entreCenas-logo.png)
 
 export default function EntreCenasLanding() {
   return (
-
     <div className="min-h-screen bg-gradient-to-b from-[#090a0e] to-[#0c0d11] text-gray-100 font-sans transition-colors duration-700">
       {/* Header */}
       <header className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-xl font-bold text-cyan-400 tracking-tight"
+          className="flex items-center gap-3"
         >
-          EntreCenas
-        </motion.h1>
+          <img
+            src={logo}
+            alt="EntreCenas Logo"
+            className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-[0_0_8px_#22d3ee]"
+          />
+          <h1 className="text-xl font-bold text-cyan-400 tracking-tight">
+            EntreCenas
+          </h1>
+        </motion.div>
+
         <motion.a
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}

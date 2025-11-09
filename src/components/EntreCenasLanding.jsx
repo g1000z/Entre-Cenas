@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logo from './assets/entreCenas-logo.png'; // 🖼️ adicione sua logo aqui (ex: src/assets/entreCenas-logo.png)
 
 export default function EntreCenasLanding() {
   return (
@@ -14,9 +13,9 @@ export default function EntreCenasLanding() {
           className="flex items-center gap-3"
         >
           <img
-            src={logo}
-            alt="EntreCenas Logo"
-            className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-[0_0_8px_#22d3ee]"
+            src="/entreCenas-logo.png"
+            alt="Logo EntreCenas"
+            className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-[0_0_10px_#22d3ee]"
           />
           <h1 className="text-xl font-bold text-cyan-400 tracking-tight">
             EntreCenas
